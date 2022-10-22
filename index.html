@@ -12,6 +12,45 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    body {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      box-sizing: border-box;
+      flex-direction: column;
+      margin: 0 auto;
+      font-family: 'Outfit', sans-serif;
+      background-color: #D5E1EF;
+    }
+    .qr-code-card {
+      display: block;
+      width: 318px;
+      padding: 10px;
+      margin: auto;
+      background-color: white;
+      border-radius: 18px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      box-shadow: 2px 1px 11px 1px rgba(189,189,189,0.65);
+      -webkit-box-shadow: 2px 1px 11px 1px rgba(189,189,189,0.65);
+      -moz-box-shadow: 2px 1px 11px 1px rgba(189,189,189,0.65);
+    }
+    .qr-code-card img {
+      width: 287px;
+      margin: 16px;
+      border-radius: 10px;
+    }
+    .qr-code-card .title {
+      font-weight: 700;
+      font-size: 25px;
+    }
+    .qr-code-card .description {
+      font-weight: 400;
+      font-size: 18px;
+      color: #b4b7be;
+    }
     .attribution { font-size: 11px; text-align: center; margin-bottom: 20px; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
