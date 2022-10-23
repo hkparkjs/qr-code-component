@@ -39,14 +39,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - Page must have one main landmark (ARIA role attribute)
 ```html
 <div role="main" class="qr-code-card">
-    <img src="./images/image-qr-code.png" alt="QR Code Image">
-    <h1 class="title">
-      Improve your front-end skills by building projects
-    </h1>
-    <p class="description">
-      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-    </p>
-  </div>
+  <img src="./images/image-qr-code.png" alt="QR Code Image">
+  <h1 class="title">
+    Improve your front-end skills by building projects
+  </h1>
+  <p class="description">
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  </p>
+</div>
 ```
 - how to take contents to center using flexbox
 ```css
